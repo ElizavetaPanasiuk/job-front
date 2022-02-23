@@ -1,0 +1,15 @@
+.signUp-form {
+  min-width: 576px;
+  
+  > * {
+    width: 100%;
+  }
+  
+  > :not(:last-child):not(.input) {
+    margin-bottom: 36px;
+  }
+
+  > :not(:last-child).input {
+    margin-bottom: 16px;
+  }
+}
