@@ -66,7 +66,7 @@ const ApplicationsPage = () => {
 	const setCurrentPage = usePagination(getApplications, scrollRef, isLast);
 
 	const { activeJobDetailes, loadingJobDetailed, cashJob } = useCashJobs(
-		true,
+		userRole === Roles.company || userRole === Roles.recruiter,
 		userRole === Roles.company || userRole === Roles.candidate
 	);
 

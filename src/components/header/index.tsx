@@ -3,9 +3,7 @@ import { useLocation } from 'react-router';
 
 import './style.scss';
 
-import { Icon } from '../../ui-kit';
-
-import { AppRoutes, IconNames, PageNames } from '../../typing/enums';
+import { AppRoutes, PageNames } from '../../typing/enums';
 
 const Header = () => {
 	const location = useLocation();
