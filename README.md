@@ -35,7 +35,7 @@ petr.petrov@mail.com
 ### Репозиторий
 https://github.com/ElizavetaPanasiuk/jobs-back/tree/develop
 ### Pull request
-https://github.com/ElizavetaPanasiuk/jobs-back/pull/1/files
+https://github.com/ElizavetaPanasiuk/jobs-back/pull/2/files
 ### Для запуска приложения:
 1. yarn
 2. yarn dev
