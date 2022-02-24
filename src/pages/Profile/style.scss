@@ -1,8 +1,12 @@
+@import '../../styles/templates.scss';
+
 #profile-page {
   height: 100%;
 
   .profile-content {
     height: 100%;
+    overflow-y: auto;
+    @extend %scroll-bar;
 
     > :first-child {
       height: 100%;
@@ -12,7 +16,7 @@
       min-width: 300px;
       margin: 0 auto;
 
-      > :not(:last-child):not(.input) {
+      > :not(:last-child) {
         margin-bottom: 36px;
       }
 
@@ -22,6 +26,10 @@
 
       > :not(:last-child).textarea-label {
         margin-bottom: 8px;
+      }
+
+      > h3:not(:last-child) {
+        margin-bottom: 16px;
       }
     }
   }
