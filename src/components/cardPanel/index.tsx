@@ -212,13 +212,14 @@ const CardPanel = ({
 							</section>
 						)}
 						{isApplyButtonVisible && userRole === Roles.candidate && (
-							<Button
-								className="card-panel__apply-button"
-								title={!props.jobData.applicationId ? 'Apply' : 'Applied'}
-								size="small"
-								disabled={props.jobData.applicationId !== null}
-								onClick={openModal}
-							/>
+							<div className="card-panel__apply-button">
+								<Button
+									title={!props.jobData.applicationId ? 'Apply' : 'Applied'}
+									size="small"
+									disabled={props.jobData.applicationId !== null}
+									onClick={openModal}
+								/>
+							</div>
 						)}
 						{userRole === Roles.recruiter &&
 							props.jobData?.candidateData?.status ===

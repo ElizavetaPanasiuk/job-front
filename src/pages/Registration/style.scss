@@ -3,8 +3,8 @@
 #registration-page {
   position: relative;
 
-  > :nth-child(1) {
+  > :first-child {
     position: absolute;
-    top: -48px;
+    top: -64px;
   }
 }
