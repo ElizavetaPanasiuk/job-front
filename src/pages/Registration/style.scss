@@ -1,0 +1,10 @@
+@import '../../styles/colors.scss';
+
+#registration-page {
+  position: relative;
+
+  > :first-child {
+    position: absolute;
+    top: -64px;
+  }
+}
